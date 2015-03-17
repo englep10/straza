@@ -1,4 +1,4 @@
 class Match < ActiveRecord::Base
-	belongs_to :guest, :host
+	belongs_to :guest
 
 end
